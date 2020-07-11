@@ -36,67 +36,50 @@
     display: table; /* para que se respete el area que estan ocupando las cajas flotantes en el flujo de nodos */
 }
 
-/* el total de las columnas es 12, para saber el tamaño de las otras 11 debemos hacer una regla de 3: n*100/12 */
+        /* el total de las columnas es 12, para saber el tamaño de las otras 11 debemos hacer una regla de 3: n*100/12 */
 
-/* para una caja que ocupe las 12 regillas de grid */
-.col-12{
-    width: 100%;
-    background: mediumslateblue;
-    /*border: 1px solid crimson;*/
-}
+    /* para una caja que ocupe las 12 regillas de grid */
+    .col-12{
+        width: 100%;
+        background: mediumslateblue;
+        /*border: 1px solid crimson;*/
+    }
 
-.col-11{
-    width: 91.66666667%;
-}
+    .col-11{width: 91.66666667%;}
+    .col-10{width: 83.33333333%;}
+    .col-9{width: 75%;}
+    .col-8{width: 66.66666667%;}
+    .col-7{width: 58.33333333%;}
 
-.col-10{
-    width: 83.33333333%;
-}
+    /* para cajas que ocupen 6 regillas de grid */
 
-.col-9{
-    width: 75%;
-}
+    .col-6{
+    /*   float: left;*/ /* para hacer que las columnas se soloque una a lado de la otra */
+        width: 50%;
+        background: darkmagenta;
+        /*  border: 1px solid darkseagreen */
+    }
 
-.col-8{
-    width: 66.66666667%;
-}
+    .col-5{width: 41.66666667%;}
 
-.col-7{
-    width: 58.33333333%;
-}
+    /* para cajas que ocupen 4 regillas de grid */
 
-/* para cajas que ocupen 6 regillas de grid */
+    .col-4{
+        /* float: left; */ /* para hacer que las columnas se soloque una a lado de la otra */
+        width: 33.33333333%;
+        background: rgb(148, 204, 18);
+        /*border: 1px solid rgb(50, 156, 243)*/
+    }
 
-.col-6{
-   /*   float: left;*/ /* para hacer que las columnas se soloque una a lado de la otra */
-    width: 50%;
-    background: darkmagenta;
-    /*  border: 1px solid darkseagreen */
-}
+    .col-3{width: 25%;}
+    .col-2{width: 16.66666667%;}
+    .col-1{width: 8.33333333%;}
 
-.col-5{
-    width: 41.66666667%;
-}
 
-/* para cajas que ocupen 4 regillas de grid */
 
-.col-4{
-    /* float: left; */ /* para hacer que las columnas se soloque una a lado de la otra */
-    width: 33.33333333%;
-    background: rgb(148, 204, 18);
-    /*border: 1px solid rgb(50, 156, 243)*/
-}
 
-.col-3{
-    width: 25%;
-}
 
-.col-2{
-    width: 16.66666667%;
-}
 
-.col-1{
-    width: 8.33333333%;
-}
+
 
 
