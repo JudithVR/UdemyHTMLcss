@@ -177,6 +177,19 @@ nav ul li a:active{
     background: rgba(100,0,100,.5);
     border: 0;
 }
+
+/* Sección 5*/
+
+footer{
+    padding: 20px 10px;
+} 
+
+footer div{
+    background:rgba(100,0,255,1);
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
 /* 
     @media se utiliza para incluir un bloque de propiedades de css solo si una determinada condicion es verdadera
 */
@@ -205,6 +218,7 @@ pantalla de escritorio grande - large (lg)
 
     #seccion4 article p img{
         width: 50%;
+        margin-bottom: 20px;
     }
 }
 
@@ -229,6 +243,7 @@ pantalla de escritorio mediana - medium (md)
 
     #seccion4 article p img{
         width: 60%;
+        margin-bottom: 20px;
     }
 }
 
@@ -255,6 +270,7 @@ pantalla de tablet chica - small (sm)
 
     #seccion4 article p img{
         width: 100%;
+        margin-bottom: 20px;
     }
 }
 
@@ -281,6 +297,7 @@ pantalla de celular extra chica - extra small (xs)
 
     #seccion4 article p img{
         width: 100%;
+        margin-bottom: 20px;
     }
 
 }
