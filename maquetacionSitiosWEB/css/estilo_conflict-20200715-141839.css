@@ -10,9 +10,9 @@
 }
 
 body{
-    background: url(../img/background.jpg);
-    background-repeat: repeat;
-    /*background-position: top center;  vertical-parte superior horizonral-centrado */
+     background: url(../img/index.jpg);
+     background-position: top center; /* vertical-parte superior horizonral-centrado */
+    height: 1080px;
 }
 
 /* CABEZOTE */
@@ -21,7 +21,7 @@ header{
     margin: auto;
     width: 1000px;
     height: 83px;
-    background-image: url(../img/cabezote.jpg);
+    background: black
  }
 
 #logo{
@@ -30,7 +30,7 @@ header{
     left: 15px;
     width: 188px;
     height: 47px;
-/*     background-image: url(../img/logotipo.png);*/
+    background-image: url(../img/logotipo.png);
     /* background: rgba(0,0, 255,0.5); */
 }
 
@@ -63,7 +63,7 @@ nav ul li{
     font-size: 14px;
     color: white;
 /*     background: rgba(0,255,100, 0.5);*/  
-    border-right: 1px solid #bcd1cb; /* borde entre los botones */
+    border-right: 1px solid white; /* borde entre los botones */
 }
 /* FIN BARRA DE NAVEGACION */
 
@@ -73,7 +73,7 @@ nav ul li{
     margin: auto;
     width: 1000px;
     height: 301px;
-    /* background-image: url(../img/slide.jpg); */
+    /* background: rgba(0, 0, 255, 0.5); */
 }
 /* FIN SLIDE */
 
@@ -83,7 +83,7 @@ nav ul li{
     margin: auto;
     width: 1000px;
     height: 26px;
-    background-image:url(../img/backBotonesSlide.jpg)
+    /* background: rgba(0, 255,0, 0.5); */
 }
 
 #botoneraSlide ul{
@@ -99,19 +99,19 @@ nav ul li{
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    background: #232d80;
+   /*  background: rebeccapurple; */
     border:3px solid white;
     margin: 3px 2px;
 }
 /* FIN BOTONERA SLIDE */
 
-/* SECTION inicio  */
-section#inicio{
+/* SECTION */
+section{
     position: relative;
     margin: auto;
     width: 1000px;
     height: 299px;
-    background: white;
+    /* background: rgba(255, 0,50,0.5); */
 }
 
 section ul li{
@@ -139,70 +139,7 @@ section ul li img{
     height: 83px;
    /*  background: rgba(255, 0, 0, 0.5); */
 }
-/* FIN SECTION inicio */
-
-/* SECTION QUIENES SOMOS */
-section#quienesSomos{
-    position: relative;
-    margin: auto;
-    width: 1000px;
-    height: 299px;
-    background: white;
-}
-
-section#quienesSomos h1{
-    position: relative;
-    top: 15px;
-    left: 27px;
-    color: #1f1d21;
-    font-weight: 100;
-}
-
-section#quienesSomos hr{
-    position: relative;
-    top:20px;
-    width: 950px;
-    margin: auto;
-    border: 1px solid #c6c6c6c6;
-}
-
-section#quienesSomos p{
-    position: relative;
-    top: 40px;
-    width: 950px;
-    margin: auto;
-    color:#414042;
-    text-align: justify;
-}
-
-section#quienesSomos p img{
-    float: left;
-    width: 272px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-/* FIN SECTION quienes somos */
-
-/* SECTION servicios */
-section#servicios{
-    position: relative;
-    margin: auto;
-    width: 1000px;
-    height: 299px;
-    background: white;
-}
-/* FIN SECTION servicios */
-
-/* SECTION contactenos */
-section#contactenos{
-    position: relative;
-    margin: auto;
-    width: 1000px;
-    height: 299px;
-    background: white;
-}
-/* FIN SECTION contactenos */
+/* FIN SECTION */
 
 /* BOTTOM */
 #bottom{
@@ -210,7 +147,7 @@ section#contactenos{
     margin: auto;
     width: 1000px;
     height: 190px;
-    background: url(../img/backBottom.jpg)
+   /*  background: rgba(0, 0, 100, 0.5); */
 }
 
 #bottom ul li{
@@ -242,7 +179,6 @@ section#contactenos{
     list-style: inside; /* listado dentro */
     font-size: 15px;
     color: white;
-    list-style-image: url(../img/list.png);
 }
 
 #bottom ul li img{
@@ -272,38 +208,6 @@ section#contactenos{
     background: white;
     margin: 5px;
 }
-
-/* para el primer item de la lista de redes sociales */
-#bottom ul li ul li:first-child{
-    background: url(../img/facebook.jpg);
-    background-size: cover; /* que cubra el tamaño de la caja */
-}
-
-/* para los siguientes elementos de la lista se usa nth-child(#de elemento) */
-#bottom ul li ul li:nth-child(2){
-    background: url(../img/iconoTwitter.jpg);
-    background-size: cover;
-}
-
-#bottom ul li ul li:nth-child(3){
-    background: url(../img/iconoPinterest.jpg);
-    background-size: cover;
-}
-
-/* para el ultimo elemento de la lista se usa last-child */
-#bottom ul li ul li:last-child{
-    background: url(../img/iconoGoogle.jpg);
-    background-size: cover;
-}
-
-/* si no se le da estructura a la etiqueta a del html no funcionarian los enlaces a las paginas */
-#bottom ul li ul li a{
-    float: left;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-}
-
 /* FIN BOTTOM */
 
 /* FOOTER */
@@ -312,7 +216,7 @@ footer{
     margin: auto;
     width: 1000px;
     height:62px ;
-    background: black;
+  /*   background: rgba(0, 255,50,0.5); */
     text-align: center;
     color: white;
     line-height: 62px;
