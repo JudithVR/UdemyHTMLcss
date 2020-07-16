@@ -114,26 +114,26 @@ section#inicio{
     background: white;
 }
 
-section ul li{
+section#inicio ul li{
     float: left;
     width: 333px;
     height: 299px;
     /* background: rgba(0,255,0,0.5); */
 }
 
-section ul li h1{
+section#inicio ul li h1{
     margin: 23px 27px ;
     font-weight: 100;
     font-size: 25px;
 }
 
-section ul li p{
+section#inicio ul li p{
     margin: 23px 28px;
     font-size: 15px;
     text-align: justify;
 }
 
-section ul li img{
+section#inicio ul li img{
     margin: 1px 29px;
     width: 273px;
     height: 83px;
@@ -192,6 +192,66 @@ section#servicios{
     height: 299px;
     background: white;
 }
+
+section#servicios #cajaServicios{
+    position: relative;
+    width: 935px;
+    height: 262px;
+    margin: auto;
+    top: 18px;
+    box-shadow: 0px 0px 30px #222; /* sombra: eje x, eje y, grosor, color */
+}
+
+section#servicios #cajaServicios ul#lista{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    width: 150px;
+    height: 220px;
+}
+
+section#servicios #cajaServicios ul#lista li{
+    width: 151px;
+    height: 72px;
+    margin: 2px 0;
+    cursor: pointer;
+}
+
+section#servicios #cajaServicios ul#visor{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 732px;
+    height: 220px;
+}
+
+section#servicios #cajaServicios ul#visor li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 732px;
+    height: 220px;
+}
+
+section#servicios #cajaServicios ul#visor li h1{
+    position: absolute;
+    z-index: 1; /* para poner el titulo sobre la imagen */
+    top: 20px;
+    left: 20px;
+}
+
+section#servicios #cajaServicios ul#visor li p{
+    position: absolute;
+    z-index: 1; /* para poner el titulo sobre la imagen */
+    bottom: 0;
+    background: rgba(0,0,0,.7);
+    color: white;
+    width: 97%;
+    line-height: 60px;
+    padding-left: 20px;
+}
+
+
 /* FIN SECTION servicios */
 
 /* SECTION contactenos */
@@ -201,6 +261,66 @@ section#contactenos{
     width: 1000px;
     height: 299px;
     background: white;
+}
+
+section#contactenos form{
+    position: relative;
+    margin: auto;
+    top: 32px;
+    width: 910px;
+    height: 232px;
+    background: white;
+}
+
+section#contactenos form input#nombre{
+    position: absolute;
+    padding: 10px;
+    width: 272px;
+    height: 45px;
+    background: #dce9d7;
+    border: 0px;
+}
+
+section#contactenos form input#email{
+    position: absolute;
+    top:81px;
+    padding: 10px;
+    width: 272px;
+    height: 45px;
+    background: #dce9d7;
+    border: 0px;
+}
+
+section#contactenos form input#asunto{
+    position: absolute;
+    bottom: 0px; /* como se tiene en posicion absoluta se puede usar botton em lugar de top para poner al final de la caja */
+    padding: 10px;
+    width: 272px;
+    height: 45px;
+    background: #dce9d7;
+    border: 0px;
+}
+
+section#contactenos form #mensaje{
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+    width: 581px;
+    height: 128px;
+    background: #dce9d7;
+    border: 0px;
+}
+
+section#contactenos form input#submit{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;;
+    padding: 10px;
+    width: 604px;
+    height: 69px;
+    background: #1a1d20;
+    border: 0px;
+    color: white;
 }
 /* FIN SECTION contactenos */
 
