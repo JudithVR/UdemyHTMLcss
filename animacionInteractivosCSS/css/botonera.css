@@ -36,7 +36,7 @@ header{
 }
 
 .nivel1:hover{
-    background: purple;
+    background: linear-gradient(purple,pink);
 }
 
 .nivel2{
@@ -53,7 +53,7 @@ header{
 }
 
 .nivel2:hover{
-    background: blue;
+    background: linear-gradient(blue, pink);
     transition: background .5s ease-out;
 }
 
