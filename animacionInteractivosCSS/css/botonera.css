@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+header{
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    height: 150px;
+    background: salmon;
+}
+
+#menuTop{
+    position: absolute;
+    bottom: 0;
+    width: 1000px;
+    height: 50px;
+    background: skyblue;
+}
+
+.nivel1{
+    float: left;
+    width: 19.2%;
+    text-align: center;
+    line-height: 42px;
+    border: 4px solid white;
+    background: linear-gradient(rgb(0, 130, 153),rgb(10, 0, 102)); /* linear-gradient crea un degradado, lleva dos parametros, primer tono, del cual se partirá, el segundo es el tono final, puede tener mas colores, se puede especificar el grado de inclinacion como primer parametro linear-gradient(45deg,color1,color2,colorn), se puede usar un degradado radial con la propiedad radial-gradient(color1,color2,colorn) */
+}
+
+.nivel1 a{
+    color: white;
+}
+
+.nivel1:hover{
+    background: purple;
+}
+
+.nivel2{
+    position: relative;
+    left: -4px;
+    width: 100%;
+    text-align: center;
+    line-height: 42px;
+    border-top: 4px solid white;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    background: silver;
+    color: black;
+}
+
+.nivel2:hover{
+    background: blue;
+    transition: background .5s ease-out;
+}
+
+#menuTop ul li ul{
+    display: none; /* para ocultar los elementos de los botones principales */
+}
+
+#menuTop ul li:hover ul{
+    display: block; /* al pasar el puntero sobre los botones principales se desplegaran los botones secundarios */
+}
