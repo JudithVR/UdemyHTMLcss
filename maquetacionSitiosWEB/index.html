@@ -5,8 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maquetación web</title>
     <link rel="stylesheet" type="text/css" href="css/estilo.css" media="">
+    <link rel="stylesheet" href="css/background.css" type="text/css" media=""> 
+    <link rel="stylesheet" href="css/slide.css" type="text/css">
+    
 </head>
 <body>
+    <!-- Fondo animado -->
+    <div id="fondo1"></div>
+    <div id="fondo2"></div>
+    <div id="fondo3"></div>
+    <div id="fondo4"></div>
+    <!-- fin de fondo animado   -->
+
     <!-- CABEZOTE -->
     <header>
         <div id="logo">
@@ -31,20 +41,42 @@
     <!-- se hace un listado no numerico para que el slide sea dinamico -->
     <div id="slide">
         <ul>
-            <li><img src="img/slide.jpg" width="100%"></li>
+            <li>
+                <input type="radio" name="in" id="boton-1" name="in">
+                <label for="boton-1"></label>
+                <img src="img/slide01.jpg" width="100%" id="foto01">
+            </li>
+
+            <li>
+                <input type="radio" name="in" id="boton-2" name="in">
+                <label for="boton-2"></label>
+                <img src="img/slide02.jpg" width="100%" id="foto02">
+            </li>
+
+            <li>
+                <input type="radio" name="in" id="boton-3" name="in">
+                <label for="boton-3"></label>
+                <img src="img/slide03.jpg" width="100%" id="foto03">
+            </li>
+
+            <li>
+                <input type="radio" name="in" id="boton-4" name="in">
+                <label for="boton-4"></label>
+                <img src="img/slide04.jpg" width="100%" id="foto04">
+            </li>
+
+            <li>
+                <input type="radio" name="in" id="boton-5" name="in">
+                <label for="boton-5"></label>
+                <img src="img/slide05.jpg" width="100%" id="foto05">
+            </li>
         </ul>
     </div>
     <!--FIN SLIDE-->
 
     <!--BOTONERA SLIDE -->
     <div id="botoneraSlide">
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+        
     </div>
     <!-- FIN BOTONERA SLIDE -->
 
@@ -69,7 +101,8 @@
                 <img src="img/img03.jpg" width="100%">
             </li>
         </ul>
-    </section>
+    </section> 
+
     <!-- FIN DE SECTION -->
 
     <!-- BOTTOM -->

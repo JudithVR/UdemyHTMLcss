@@ -9,11 +9,11 @@
     font-family: sans-serif;
 }
 
-body{
+/* body{
     background: url(../img/background.jpg);
     background-repeat: repeat;
-    /*background-position: top center;  vertical-parte superior horizonral-centrado */
-}
+    /*background-position: top center;  vertical-parte superior horizonral-centrado 
+} */
 
 /* CABEZOTE */
 header{
@@ -138,7 +138,7 @@ section#inicio ul li img{
     width: 273px;
     height: 83px;
    /*  background: rgba(255, 0, 0, 0.5); */
-}
+} 
 /* FIN SECTION inicio */
 
 /* SECTION QUIENES SOMOS */
@@ -185,7 +185,7 @@ section#quienesSomos p img{
 /* FIN SECTION quienes somos */
 
 /* SECTION servicios */
-section#servicios{
+/* section#servicios{
     position: relative;
     margin: auto;
     width: 1000px;
@@ -199,7 +199,7 @@ section#servicios #cajaServicios{
     height: 262px;
     margin: auto;
     top: 18px;
-    box-shadow: 0px 0px 30px #222; /* sombra: eje x, eje y, grosor, color */
+    box-shadow: 0px 0px 30px #222; /* sombra: eje x, eje y, grosor, color *
 }
 
 section#servicios #cajaServicios ul#lista{
@@ -235,21 +235,21 @@ section#servicios #cajaServicios ul#visor li{
 
 section#servicios #cajaServicios ul#visor li h1{
     position: absolute;
-    z-index: 1; /* para poner el titulo sobre la imagen */
+    z-index: 1; /* para poner el titulo sobre la imagen *
     top: 20px;
     left: 20px;
 }
 
 section#servicios #cajaServicios ul#visor li p{
     position: absolute;
-    z-index: 1; /* para poner el titulo sobre la imagen */
+    z-index: 1; /* para poner el titulo sobre la imagen *
     bottom: 0;
     background: rgba(0,0,0,.7);
     color: white;
     width: 97%;
     line-height: 60px;
     padding-left: 20px;
-}
+} */
 
 
 /* FIN SECTION servicios */
